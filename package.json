@@ -1,0 +1,41 @@
+{
+  "name": "pdf",
+  "version": "0.0.1",
+  "description": "react pdf viewer",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "father-build -w",
+    "start": "rescripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pdfjs-dist": "2.0.943"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@tools-list/eslint-config-self": "0.0.3",
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "father-build": "^1.20.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoguoxiong/react-pdf-viewer.git"
+  },
+  "keywords": [
+    "react",
+    "pdf",
+    "view"
+  ],
+  "author": "luoguoxiong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luoguoxiong/react-pdf-viewer/issues"
+  },
+  "homepage": "https://github.com/luoguoxiong/react-pdf-viewer#readme"
+}
